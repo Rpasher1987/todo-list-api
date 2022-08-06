@@ -1,0 +1,42 @@
+/*index.css*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+body {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  text-align:center;
+  font-weight: bold;
+}
+header {
+  background-color: rgb(98, 154, 98);
+  border-bottom: 2pt solid black;
+  padding-bottom: 10px;
+}
+.container {
+  font-size:larger;
+  align-content: center;
+}
+
+.delete {
+  margin-right: 5px;
+}
+input[type=text] {
+  border: 2px solid gray;
+  border-radius: 4px;
+  width: 67%;
+  padding: 5px 10px;
+  margin: 6px 0;
+  box-sizing: border-box;
+}
+input[type=checkbox].mark-complete.delete {
+  width: 20px;
+  height: 20px;
+  border: 5px;
+}
+.todo-list-row {
+  border-bottom: 2px;
+}
+button.bi.bi-plus-lg.add-item {
+  color:green;
+  border-color:green;
+}
